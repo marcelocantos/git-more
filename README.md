@@ -30,4 +30,8 @@ Start a new shell and `cd` to a git repository to see the results.
 1. If you already have a customised `PS1`, you'll have to figure out for yourself where to slot the relevant snippet — `$(__gitty_ps1 "(±\[\e[4m\]%s\[\e[24m\])")` — and remember to remove any `\w` or `\W`, since `__gitty_ps1` emulates `\w`.
 1. You can, of course, customise this to your heart's content. Just be careful with ANSI escapes. They must all appear inside a pair of `\[...\]` on the `PS1=...` line. Otherwise, line wrapping will go all fruity on you.
 
+### Bugs
+
+1. Placement of the `(±...)` is a slightly broken when you `cd` into the `.git` directory.
+
   [1]: https://github.com/markgandolfo/git-bash-completion
