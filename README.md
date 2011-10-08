@@ -4,7 +4,7 @@ This is a holding area for little knick-knacks I've created to make using git ea
 
 ## __gitty_ps1
 
-This script improves the way git branches, etc., appear on the command-line. It relies on [git-completion.bash][1], which is part of the git source distribution, and also comes for free with `brew install git`.
+This script improves the way git branches, etc., appear on the command-line. It relies on [git-completion.bash][1], which is part of the git source distribution, and also comes for free with `brew install git bash-completion`.
 
 The purpose of this enhancement is to indicate the current branch, etc., just as `__git_ps1` does now. But instead of placing the information in some fixed location, `__gitty_ps1` automatically places it immediately after the git repository's root directory, somewhere in the middle of the path. For example, if I am in the `src` subdirectory of my `~/work/wickdapp` git project, the command-line appears like so:
 
