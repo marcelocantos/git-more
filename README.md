@@ -22,6 +22,7 @@ Note that the `(±...)` (the guts of which is just whatever `__git_ps1 "%s"` out
 
 1. Install git-completion.bash
 1. Paste the contents of `gitty-up.sh` into `~/.bash_profile`.
+1. Comment and uncomment pasted environment variables to taste.
 
 Start a new shell and `cd` to a git repository to see the results.
 
