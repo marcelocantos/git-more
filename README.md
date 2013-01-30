@@ -34,5 +34,6 @@ Start a new shell and `cd` to a git repository to see the results.
 ### Bugs
 
 1. Placement of the `(±...)` is a slightly broken when you `cd` into the `.git` directory.
+1. Broken inside submodules.
 
   [1]: https://github.com/markgandolfo/git-bash-completion
